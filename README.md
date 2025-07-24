@@ -1,18 +1,3 @@
-Metadata-Version: 2.1
-Name: my_package
-Version: 0.1
-Summary: A short description of your package
-Author: Abdellah HALLOU
-Author-email: abdeallahhallou33@gmail.com
-Classifier: Programming Language :: Python :: 3.12.4
-Classifier: License :: OSI Approved :: MIT License
-Classifier: Operating System :: OS Independent
-Requires-Python: >=3.8
-Description-Content-Type: text/markdown
-Requires-Dist: setuptools==69.2.0
-Requires-Dist: wheel
-Requires-Dist: twine
-
 # p4score
 
 This is a repository used for explaining how to create a python package and publish it on GitHub.
