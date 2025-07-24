@@ -28,6 +28,9 @@ jobs:
       - name: Publish to GitHub Packages
         env:
           # injected automatically – you never define this yourself
+          TWINE_USERNAME: __token__
+          TWINE_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
+          TWINE_NON_INTERACTIVE: '1'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python -m pip install twine
